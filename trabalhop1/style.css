@@ -1,0 +1,131 @@
+*{
+
+}
+
+
+/* Configuração do Menu Principal */
+.menu-grid{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 200px;
+    grid-template-areas: 
+    "logo direita-grid"
+    "logo direita-grid"
+    "logo direita-grid";
+}
+
+.direita-grid{
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+
+    display: grid;
+    grid-area: direita-grid;
+    grid-template-areas: 
+        "sub-item"
+        "sub-item"
+        "sub-item";
+
+    border: 2px solid #000;
+    text-align: right ;
+}
+
+.sub-menu nav ul li{
+    color: black;
+    padding: 10px;
+    font-size: large;
+    display: inline;
+    text-decoration: none;
+}
+
+.sub-menu{
+    border: solid 2px #000;
+}
+
+.logo{
+    width:200px;
+    height: 200px;
+}
+
+.link-opcoes{
+    font-size: medium;
+}
+
+.menu-baixo{
+    border: solid 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+/* Configuração do corpo */
+.corpo-grid{
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+    grid-template-areas: 
+    "corpo-esquerda corpo-meio corpo-direita";
+    
+}
+
+.corpo-esquerda{
+    border: solid 2px #000;
+}
+.corpo-meio{
+    border: solid 2px #000;
+}
+.corpo-direita{
+    border: solid 2px #000;
+}
+
+.sergio-moro{
+    width:200px;
+    height: auto;
+    margin-left: 4px;
+}
+
+.corpo-esquerda nav ul li a{
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+    text-align: justify;
+    
+}
+
+.corpo-links ul{
+    margin:0%;
+    padding: 0%;
+}
+
+
+.corpo-links ul li{
+    list-style-type: none;
+
+    border: solid 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 4px;
+}
+
+.populares ul{
+    border: solid 2px #000;
+    list-style-type: none;
+    background-color: lightgray;
+    margin:0%;
+    padding: 0%;
+}
+
+.populares ul li{
+    margin-left: 3px;
+    color: black;
+    text-align: justify;
+}
