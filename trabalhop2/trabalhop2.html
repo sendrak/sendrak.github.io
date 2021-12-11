@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho P2</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <!--
+    - Nome
+
+    - Telefone
+
+    - Cidade Retirada [Campos dos Goytacazes-RJ, Rio de Janeiro-RJ, Vitória-ES]
+
+    - Cidade Entrega [Campos dos Goytacazes-RJ, Rio de Janeiro-RJ, Vitória-ES]
+
+    - Data Retirada
+
+    - Data Devolução
+
+    - Tipo de Carro: Básico (R$ 119,00),  Básico com Ar (R$ 199,00), Executivo(R$ 299,00)
+
+    Regras:
+
+    * Caso o cidade de devolução diferente da retirada será cobrada taxa de R$300,00
+
+    Efetuar o cálculo e apresentar ao usuário
+
+    -->
+
+    <fieldset>
+        <legend>Locadora de Carros</legend>
+        <form action="" method="post" id="form">
+          Nome: <input id="nome"  type="text"> 
+          <br>
+          Telefone: <input id="telefone"  type="text"> 
+          <br>
+          Cidade de Retirada: 
+          <select id="cidRet">
+            <option value="Campos dos Goytacazes - RJ">Campos dos Goytacazes - RJ</option>
+            <option value="Rio de Janeiro - RJ">Rio de Janeiro - RJ</option>
+            <option value="Vitória - ES">Vitória - ES</option>
+          </select>
+          <br>
+          Cidade de Devolução: 
+          <select id="cidDev">
+            <option value="Campos dos Goytacazes - RJ">Campos dos Goytacazes - RJ</option>
+            <option value="Rio de Janeiro - RJ">Rio de Janeiro - RJ</option>
+            <option value="Vitória - ES">Vitória - ES</option>
+          </select>
+          <br>
+          Data de Retirada: 
+          <input id="dataRetirada" type="date">
+          <br>
+          Data de Devolução:
+          <input id="dataDevolucao" type="date">
+          <br>
+          Tipo de carro:
+          <br>
+          <select id="tipo">
+            <option value="119">Básico(R$ 119,00)</option>
+            <option value="199">Básico com Ar(R$ 199,00)</option>
+            <option value="299">Executivo(R$ 299,00)</option>
+          </select>
+          <br><br>
+          <button type="submit" onclick="calculaPreco()">Calcular preço</button>
+        </form>
+          
+          
+    </fieldset>
+
+    <a href="../sumario.html">Voltar ao Sumário</a>
+
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
