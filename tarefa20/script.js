@@ -1,12 +1,12 @@
 
 window.addEventListener("load",function(){
-    var e1 = document.getElementById('verifica1');
+    var e1 = document.getElementById('verifica_1');
     e1.addEventListener('click', Ocultar);
 
-    var e2 = document.getElementById('verifica2');
+    var e2 = document.getElementById('verifica_2');
     e2.addEventListener('click', Ocultar);
 
-    var e3 = document.getElementById('verifica3');
+    var e3 = document.getElementById('verifica_3');
     e3.addEventListener('click', Ocultar);
 
 })
@@ -16,7 +16,7 @@ window.addEventListener("load",function(){
 function Ocultar(e)
 {  
      
-  teste ="painel"+e.target.id[7];
+  teste ="painel_"+e.target.id[7];
   c = document.getElementById(teste);
   
   if(e.target.innerHTML=="Mostrar Conteudo"){
