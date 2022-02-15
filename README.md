@@ -1,2 +1,2 @@
 # sendrak.github.io
-Repositório para a disciplina de Desenvolvimento de Aplicações Hipermídia
+Em breve será utilizado como site Portfólio / CV
